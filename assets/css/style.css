@@ -1,0 +1,82 @@
+/*RESETEO DE VALORES PREDETERMINADOS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*SELECTORES DE ETIQUETAS*/
+body {
+    background-color: #2446b493;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    background-image: url("../imgs/smartwatchstore-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 50px;
+    border: 8px solid #ffffff;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 80px;
+    /*text-align: center;*/
+}
+
+h2 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #06065c;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 12px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*SELECTORES DE CLASES*/
+.slogan {
+    font-size: 35px;
+}
+
+.products {
+    margin: auto;
+    width: 60%;
+}
+
+.products td {
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    padding: 40px;
+}
+
+.img_prod {
+    width: 225px;
+    height: 225px;
+    border-radius: 15px;
+}
+
+.desc_prod{
+    font-size: 18px;
+}
+
+.price_prod {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
